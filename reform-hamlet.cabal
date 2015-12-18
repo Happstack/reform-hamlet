@@ -1,5 +1,5 @@
 Name:                reform-hamlet
-Version:             0.0.5
+Version:             0.0.5.1
 Synopsis:            Add support for using Hamlet with Reform
 Description:         Reform is a library for building and validating forms using applicative functors. This package add support for using reform with Hamlet.
 Homepage:            http://www.happstack.com/
@@ -11,11 +11,11 @@ Copyright:           2012 Jeremy Shaw, Jasper Van der Jeugt, SeeReason Partners 
 Category:            Web
 Build-type:          Simple
 Cabal-version:       >=1.6
+tested-with:         GHC == 7.6.3, GHC == 7.8.4, GHC == 7.10.3
 
 source-repository head
     type:     git
-    subdir:   reform-hamlet
-    location: https://github.com/Happstack/reform.git
+    location: https://github.com/Happstack/reform-hamlet.git
 
 Library
   Exposed-modules:     Text.Reform.Hamlet.Common
